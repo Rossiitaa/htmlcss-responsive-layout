@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 .flex{
     display: flex;
@@ -9,10 +12,17 @@
 .between-jc {
     justify-content: space-between;
 }
+.column {
+    flex-direction: column;
+}
 .p-fix {
     position: fixed;
     top: 0;
     left: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* header */
@@ -20,6 +30,7 @@ header {
     width: 100%;
     background-color: #0084fd;
     padding: 20px;
+    z-index: 1;
 }
 .header-sec {
     align-items: center;
@@ -28,6 +39,7 @@ header {
     font-size: 30px;
     color: #fff;
 }
+
 /* menù desktop */
 .menu{
     display: none;
@@ -51,14 +63,56 @@ li {
     padding: 10px 15px;
 }
 
+/* Main */
+.space {
+    margin: 130px auto;
+    text-align: center;
+}
 
+/* first section */
 
+/* get a demo */
+.container-1card {
+    background-color: #b5ddff;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.container-1card h3 {
+    font-size: 23px;
+    color: #0084fd;
+    margin-bottom: 28px;
+}
+.container-1card p {
+    color: #5a6e7f;
+    line-height: 28px;
+    font-weight: bold;
+    padding-left: 8px;    
+}
+.text-demo {
+    text-align: start;
+}
+.app-store{
+    margin: 40px 0 20px 0;
+}
+.app-store a {
+    padding: 10px 70px;
+    border-radius: 20px;
+    background-color: #0084fd;
+}
+.container-1card img {
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
 
-
-
-
-
-
+/* clean code */
+.container-1card .icon {
+    color: #0084fd;
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
 
 
 /* Tablet */
@@ -68,6 +122,7 @@ li {
 
 /* Desktop */
 @media all and (min-width: 991px){
+    /* header */
     .header-sec {
         width: 80%;
         margin: 0 auto;
@@ -80,6 +135,6 @@ li {
     .menu-hamburger {
         display: none;
     }
-
-    
 }
+
+/* main */
