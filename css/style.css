@@ -129,6 +129,46 @@ li {
     margin-bottom: 20px;
 }
 
+/* strategic */
+.strategic {
+    background-color: #9792E4;
+    padding: 30px
+}
+.width-img {
+    width: 100%;
+}
+.title-strategic {
+    font-size: 30px;
+    color: #fff;
+    margin: 50px 0;
+}
+.planning p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* development */
+.develop {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 40px;
+}
+.develop h1 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.title-develop {
+    margin-bottom: 40px;
+}
+.arrow-under {
+    padding: 15px;
+    background-color: #9792E4;
+    border-radius: 30px;
+    color: #000;
+}
+
+
 
 /* Tablet */
 @media all and (min-width: 767px){
@@ -139,10 +179,10 @@ li {
         justify-content: space-between;
     }
     .container-1card {
-        width: 65%;
+        width: 66%;
     }
     .container-card {
-        width: 32%;
+        width: 33%;
     }
     .container-1card img {
         width: 250px;
@@ -152,6 +192,12 @@ li {
     }
     .container-1card div {
         text-align: start;
+    }
+    
+
+    /* strategic */
+    .title-strategic {
+        font-size: 60px;
     }
 }
 
@@ -175,11 +221,12 @@ li {
 
     /* demo */
     .container-1card {
-       flex-direction: row;
-       width: 68%;
+        display: flex;
+        flex-direction: row;
+        width: 62.5%;
     }
     .container-card {
-        width: 31%;
+        width: 30%;
     }
     .img-cell {
         align-self: flex-end;
@@ -188,5 +235,28 @@ li {
         width: 200px;
         position: relative;
         left: 10px;
+    }
+    .app-store a{
+        padding: 10px 50px
+    }
+    
+
+
+    /* strategic */
+    .container {
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .planning {
+        width: 45%;
+        padding: 50px 20px 10px 0px;
+    }
+    .develop {
+        width: 35%;
+        align-self: end;
+    }
+    .title-strategic {
+        font-size: 30px;
     }
 }    
