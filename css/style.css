@@ -410,11 +410,11 @@ li {
         width: 60%;
     }
     .ab-us-img {
-        width: 40%;
+        width: 30%;
         text-align: center;
         position: relative;
-        top: 40px;
-        left: 60px;
+        top: 60px;
+        left: 20px;
     }
     .ab-us-img h2, .button-ab-us {
         text-align: start;    
@@ -456,7 +456,7 @@ li {
         align-self: flex-end;
     }
     .container-1card img {
-        width: 200px;
+        width: 250px;
         position: relative;
         left: 10px;
     }
@@ -497,4 +497,19 @@ li {
         width: calc(100% / 3 - 20px);
     }
 
+    /* about us */
+    .ab-us-img {
+        width: 28%;
+        text-align: center;
+        position: relative;
+        top: 60px;
 }   
+
+@media all and (min-width: 1199px) {
+    .ab-us-img {
+        width: 25%;
+    }
+    .ab-us-text{
+        width: 70%;
+    }
+}
