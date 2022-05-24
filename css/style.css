@@ -323,13 +323,31 @@ li {
     padding: 50px 0;
 }
 
+/* footer */
+.back-footer {
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+}
+.text1-foot {
+    padding: 40px 0;
+}
+.text2-foot {
+    padding: 20px 0;
+}
+.text2-foot a {
+    color: #9792E4;
+}
+
 
 
 
 
 
 /* Tablet */
-@media all and (min-width: 767px){
+
+@media all and (min-width: 767px) {
+
     /* main */
 
     /* demo */
