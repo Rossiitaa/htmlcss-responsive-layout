@@ -506,10 +506,16 @@ li {
 }   
 
 @media all and (min-width: 1199px) {
+    /* ABOUT US */
     .ab-us-img {
         width: 25%;
     }
     .ab-us-text{
         width: 70%;
+    }
+
+    /* testimonials */
+    .text-1card {
+        margin: 40px 0 0 30px;
     }
 }
