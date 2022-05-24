@@ -128,6 +128,11 @@ li {
     font-size: 6rem;
     margin-bottom: 20px;
 }
+.container-card p {
+    color: #5a6e7f;
+    line-height: 28px;
+    font-weight: bold;
+}
 
 /* strategic */
 .strategic {
@@ -168,6 +173,51 @@ li {
     color: #000;
 }
 
+/* testimonials */
+.testimonials {
+    text-align: center;
+}
+.testimonials h2 {
+    margin: 30px 0;
+    font-weight: lighter;
+}
+.testimonials h1 {
+    color: #9792E4;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.testimonials p {
+    margin-bottom: 30px;
+}
+
+/* card testimonials */
+.cont-card {
+    background-color: #9792E4;
+    color: #fff;
+    border-radius: 40px;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+}
+.cont-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.text-1card {
+    padding: 10px 0;
+}
+.text-1card p {
+    line-height: 25px;
+    text-align: center;
+}
+.text-1card h3 {
+    margin: 20px 0;
+    text-align: center;
+}
+.space-bottom {
+    margin-bottom: 100px;
+}
 
 
 /* Tablet */
@@ -199,6 +249,18 @@ li {
     .title-strategic {
         font-size: 60px;
     }
+
+    /* testimonials */
+    .cont-card {
+        display: flex;
+        padding-top: 30px;
+    }
+    .text-1card {
+    margin: 10px 0 0 30px;
+    }
+    .text-1card p, .text-1card h3 {
+        text-align: left;
+    }
 }
 
 /* Desktop */
@@ -215,18 +277,15 @@ li {
         display: none;
     }
 
-
-    
     /* main */
 
     /* demo */
     .container-1card {
-        display: flex;
         flex-direction: row;
-        width: 62.5%;
+        width: 66%;
     }
     .container-card {
-        width: 30%;
+        width: 32%;
     }
     .img-cell {
         align-self: flex-end;
@@ -236,15 +295,17 @@ li {
         position: relative;
         left: 10px;
     }
+    .container-1card div {
+        color: #5a6e7f;
+        font-weight: bold;
+    }
     .app-store a{
         padding: 10px 50px
     }
     
-
-
     /* strategic */
-    .container {
-        width: 70%;
+    .cont-strat {
+        width: 100%;
         display: flex;
         justify-content: space-evenly;
     }
@@ -259,4 +320,9 @@ li {
     .title-strategic {
         font-size: 30px;
     }
-}    
+
+    /* testimonials */
+
+
+
+}   
